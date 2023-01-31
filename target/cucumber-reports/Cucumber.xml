@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="32.085">
+    <testcase classname="Login Test" name="Getir basket test" time="31.82">
+        <system-out>
+            <![CDATA[Given The user open the getir application and enters "hello@getir.com" and "hello".passed
+Then The user login successfully............................................passed
+And The user verify that basket is empty and able to see "There is no result".passed
+And The user able to see all menu list in console and verify that ise size is 12.passed
+And The user clicks second category which is "Atıştırmalık".................passed
+And The user add two items..................................................passed
+And The user scroll down to "Ürün 13".......................................passed
+And The user add two items..................................................passed
+And The user go to basket...................................................passed
+Then The user verify that "Total Amount : 84 ₺".............................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

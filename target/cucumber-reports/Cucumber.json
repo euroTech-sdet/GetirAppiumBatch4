@@ -1,0 +1,211 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-01-31T21:01:43.465Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10642474000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.getir.step_definitions.Initialize.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Getir basket test",
+        "description": "",
+        "id": "login-test;getir-basket-test",
+        "after": [
+          {
+            "result": {
+              "duration": 3232196000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.getir.step_definitions.Initialize.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6772287000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "The user open the getir application and enters \"hello@getir.com\" and \"hello\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hello@getir.com\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"hello\"",
+                  "offset": 69
+                }
+              ],
+              "location": "com.getir.step_definitions.LoginStepDef.the_user_open_the_getir_application_and_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 337905000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "The user login successfully",
+            "match": {
+              "location": "com.getir.step_definitions.LoginStepDef.the_user_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1057626000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "The user verify that basket is empty and able to see \"There is no result\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"There is no result\"",
+                  "offset": 53
+                }
+              ],
+              "location": "com.getir.step_definitions.LoginStepDef.the_user_verify_that_basket_is_empty_and_able_to_see(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1331670000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The user able to see all menu list in console and verify that ise size is 12",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 74
+                }
+              ],
+              "location": "com.getir.step_definitions.LoginStepDef.theUserAbleToSeeAllMenuListInConsoleAndVerifyThatIseSizeIs(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 794258000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The user clicks second category which is \"Atıştırmalık\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Atıştırmalık\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.getir.step_definitions.LoginStepDef.the_user_clicks_second_category_which_is(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 845092000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The user add two items",
+            "match": {
+              "location": "com.getir.step_definitions.LoginStepDef.theUserAddTwoItems()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4419105000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The user scroll down to \"Ürün 13\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ürün 13\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.getir.step_definitions.LoginStepDef.theUserScrollDownTo(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1429901000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The user add two items",
+            "match": {
+              "location": "com.getir.step_definitions.LoginStepDef.theUserAddTwoItems()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118693000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "The user go to basket",
+            "match": {
+              "location": "com.getir.step_definitions.LoginStepDef.theUserGoToBasket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 692753000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "The user verify that \"Total Amount : 84 ₺\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Total Amount : 84 ₺\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.getir.step_definitions.LoginStepDef.theUserVerifyThat(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/login.feature",
+    "tags": []
+  }
+]
